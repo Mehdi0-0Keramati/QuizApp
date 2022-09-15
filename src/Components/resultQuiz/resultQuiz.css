@@ -1,0 +1,33 @@
+.container_resultQuiz {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 0.3rem;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  font-family: Roboto-Black;
+  padding-bottom: 3rem;
+}
+.container_resultQuiz h3 {
+  margin: 2rem;
+}
+.icon {
+  font-size: 5rem;
+  display: block;
+}
+.container_resultQuiz .buttons .button {
+  text-decoration: none;
+  font-family: Roboto-Medium;
+  border-radius: 0.5rem;
+  background-color: royalblue;
+  color: white;
+  padding: 1rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+.container_resultQuiz .buttons .button:hover {
+  background-color: rgb(0, 80, 126);
+}

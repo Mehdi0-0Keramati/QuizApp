@@ -1,0 +1,46 @@
+.container-infoQuiz {
+  border-radius: 0.4rem;
+  background-color: white;
+  padding: 1rem 0;
+}
+.container-infoQuiz .rules-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: Roboto-Medium;
+}
+.container-infoQuiz .rules-text {
+  font-family: roboto_italic;
+  font-weight: 600;
+  color: rgb(99, 99, 99);
+  line-height: 1.5rem;
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+  padding: 1rem 2rem;
+}
+.container-infoQuiz .buttons {
+  margin-top: 1.5rem;
+  text-align: right;
+  font-family: Roboto-Black;
+}
+.container-infoQuiz .buttons .button {
+  border: 0.1rem solid darkblue;
+  border-radius: 0.4rem;
+  margin: 0 0.5rem;
+  padding: 0.3rem;
+  text-decoration: none;
+}
+.container-infoQuiz .buttons .continue {
+  background-color: lightblue;
+  color: darkblue;
+}
+.container-infoQuiz .buttons .continue:hover {
+  color: rgb(3, 192, 192);
+  background-color: rgb(45, 78, 78);
+}
+.container-infoQuiz .buttons .exit {
+  color: rgb(45, 159, 197);
+}
+.container-infoQuiz .buttons .exit:hover {
+  color: darkblue;
+  background-color: lightblue;
+}
