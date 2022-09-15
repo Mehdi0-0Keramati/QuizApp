@@ -19,11 +19,11 @@ const ResultQuiz = () => {
                 }
 
                 {
-                    context.UserScore >= 3 && context.UserScore <= 6 ?
+                    context.UserScore < 6 && context.UserScore > 2 ?
                         <h3>
                             <i className="icon">&#128526;</i>
                             Nice you get <span style={{ color: 'orange' }}>{context.UserScore}</span> out of
-                            <span style={{ color: 'orange' }}>{context.questions.length}</span> questions
+                            <span style={{ color: 'orange' }}> {context.questions.length}</span> questions
                         </h3>
 
                         : ""
@@ -32,7 +32,7 @@ const ResultQuiz = () => {
                 {
                     context.UserScore >= 6 ?
                         <h3>
-                            <i className="icon">&#128526;</i>
+                            <i className="icon">&#128081;</i>
                             congratulations you get <span style={{ color: 'orange' }}>{context.UserScore}</span> out of <span style={{ color: 'orange' }}>{context.questions.length}</span> questions
                         </h3>
                         : ""
