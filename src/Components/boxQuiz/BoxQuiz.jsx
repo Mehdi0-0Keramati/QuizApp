@@ -19,7 +19,7 @@ const BoxQuiz = () => {
     useEffect(() => {
 
         if (context.isRunning) {
-            let interval = setInterval(() => {
+            var interval = setInterval(() => {
                 setTimeCount(timeCount = timeCount - 1)
 
                 if (timeCount < 10) {
@@ -52,6 +52,9 @@ const BoxQuiz = () => {
                 setTimeLineInterval(lineInterval)
 
             }, 38.5);
+        }
+        return () => {
+            clearInterval(interval)
         }
 
     }, [context.isRunning]);
